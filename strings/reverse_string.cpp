@@ -1,3 +1,8 @@
+/*
+Topic: Strings
+Concepts: indexing, loops, string reversal
+Purpose: Practice reversing a string using basic C++ operations.
+*/
 #include <iostream>
 #include <string>
 using namespace std;
