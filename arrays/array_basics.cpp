@@ -1,3 +1,8 @@
+/*
+Topic: Arrays
+Concepts: array declaration, indexing, loops
+Purpose: Practice basic array operations in C++.
+*/
 #include <iostream>
 #include <vector>
 using namespace std;
