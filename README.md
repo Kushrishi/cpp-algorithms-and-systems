@@ -4,39 +4,52 @@ This repository contains my C++ practice work for algorithms, data structures, o
 
 The goal of this repository is to build a strong foundation in modern C++ and problem solving for technical software engineering roles.
 
+## Current Focus
+
+I am currently starting with basic arrays, strings, and C++ syntax before moving into more advanced data structures and algorithms.
+
+## Current Repository Structure
+
+```text
+arrays/
+strings/
+```
+
 ## Topics Covered
 
 * Arrays and strings
+* Basic C++ syntax
+* Loops and conditionals
+* Functions
+* Searching and sorting
+* Recursion
 * Hash maps and sets
 * Stacks and queues
 * Linked lists
 * Trees
 * Graphs
-* Sorting and searching
-* Recursion
 * Object-oriented programming
 * File input/output
 * Basic systems programming concepts
 
-## Repository Structure
+## Planned Structure
 
 ```text
 arrays/
 strings/
+vectors/
+functions/
+sorting-searching/
+recursion/
 hashmaps/
 stacks-queues/
 linked-lists/
 trees/
 graphs/
-sorting-searching/
-recursion/
 oop-practice/
 file-io/
+mini-projects/
 ```
-
-## Current Focus
-
-I am currently starting with basic arrays, strings, and C++ syntax before moving into more advanced data structures and algorithms.
 
 ## Tech Stack
 
