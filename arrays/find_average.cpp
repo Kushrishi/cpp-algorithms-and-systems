@@ -1,3 +1,8 @@
+/*
+Topic: Arrays
+Concepts: loops, summation, average calculation
+Purpose: Practice calculating the average of array elements.
+*/
 #include <iostream>
 #include <vector>
 using namespace std;
