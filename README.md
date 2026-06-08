@@ -6,7 +6,7 @@ The goal of this project is to build a strong foundation in C++ for future work 
 
 ## Current Status
 
-This repository currently contains **72 C++ source files** across the following completed modules:
+This repository currently contains **73 C++ source files** across the following completed modules:
 
 | Folder             | Description                                                                                                        |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------ |
@@ -16,8 +16,8 @@ This repository currently contains **72 C++ source files** across the following 
 | `vectors/`         | Vector basics, sum/average, and maximum value search                                                               |
 | `sorting/`         | Bubble sort, selection sort, insertion sort, merge sort, quick sort, descending sort, and vector sorting           |
 | `searching/`       | Linear search, binary search, recursive binary search, first occurrence, and last occurrence                       |
-| `recursion/`       | Factorial, Fibonacci, power, sum of digits, countdown, and recursive string reversal                               |
-| `data_structures/` | Stacks, queues, linked lists, maps, sets, hash maps, and tree traversal basics                                     |
+| `recursion/`       | Factorial, Fibonacci, power, recursive array sum, recursive palindrome, and recursive string reversal              |
+| `data_structures/` | Stacks, queues, linked lists, maps, sets, hash tables, priority queues, and tree traversal                         |
 | `oop/`             | Classes, constructors, destructors, encapsulation, inheritance, polymorphism, and a robot class project            |
 | `file_io/`         | Writing files, reading files, appending files, reading numeric data, and working with simple student records       |
 | `memory_pointers/` | Pointer basics, references vs pointers, dynamic memory, node pointers, and destructor-based cleanup                |
@@ -31,7 +31,7 @@ This repository currently contains **72 C++ source files** across the following 
 * Recursion
 * Stacks and queues
 * Linked lists
-* Maps, sets, and hash maps
+* Maps, sets, hash tables, and priority queues
 * Basic tree traversal
 * Object-oriented programming
 * Constructors and destructors
