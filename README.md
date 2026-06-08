@@ -6,7 +6,7 @@ The goal of this project is to build a strong foundation in C++ for future work 
 
 ## Current Status
 
-This repository currently contains **61 C++ source files** across the following completed modules:
+This repository currently contains **72 C++ source files** across the following completed modules:
 
 | Folder             | Description                                                                                                        |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------ |
@@ -20,6 +20,8 @@ This repository currently contains **61 C++ source files** across the following 
 | `data_structures/` | Stacks, queues, linked lists, maps, sets, hash maps, and tree traversal basics                                     |
 | `oop/`             | Classes, constructors, destructors, encapsulation, inheritance, polymorphism, and a robot class project            |
 | `file_io/`         | Writing files, reading files, appending files, reading numeric data, and working with simple student records       |
+| `memory_pointers/` | Pointer basics, references vs pointers, dynamic memory, node pointers, and destructor-based cleanup                |
+| `mini_projects/`   | Small applied programs combining C++ fundamentals into complete examples                                           |
 
 ## Topics Practiced
 
@@ -35,38 +37,27 @@ This repository currently contains **61 C++ source files** across the following 
 * Constructors and destructors
 * Encapsulation, inheritance, and polymorphism
 * File input/output
-* Basic systems programming concepts
-
-## Current Focus
-
-The next module is `memory_pointers/`, which will focus on:
-
-* Pointer syntax
-* References vs pointers
-* `int*` and `Node*`
-* `&` and `*`
-* `nullptr`
-* Dynamic memory with `new` and `delete`
+* Pointers and references
 * Stack vs heap memory
-* Destructor-based cleanup
-* How linked lists connect nodes through pointers
+* Dynamic memory with `new` and `delete`
+* Node-based memory structures
+* Menu-based program logic
+* Basic simulation logic
+* Systems-oriented problem solving
 
-## Planned Next Modules
+## Mini Projects
 
-```text
-memory_pointers/
-mini_projects/
-```
+The `mini_projects/` folder includes small programs that combine multiple C++ concepts:
 
-Planned mini projects include:
+| Project                       | Concepts Practiced                                                                    |
+| ----------------------------- | ------------------------------------------------------------------------------------- |
+| `gradebook_manager.cpp`       | Vectors, functions, averages, min/max logic, and input validation                     |
+| `bank_account_manager.cpp`    | Classes, constructors, encapsulation, validation, and menu logic                      |
+| `robot_battery_simulator.cpp` | Classes, simulation logic, state tracking, and conditionals                           |
+| `simple_inventory_system.cpp` | Structs, vectors, searching, updating records, and menu logic                         |
+| `autonomous_robot_grid.cpp`   | 2D grids, robot movement, obstacles, target detection, and simple autonomous movement |
 
-* Gradebook manager
-* Bank account manager
-* Robot battery simulator
-* Simple inventory system
-* Autonomous robot grid
-
-The autonomous robot grid project is intended to connect this C++ foundations repository to a future robotics simulation project.
+The autonomous robot grid project connects this C++ foundations repository to a future robotics simulation project.
 
 ## File I/O Notes
 
@@ -99,6 +90,13 @@ g++ oop/robot_class_project.cpp -o robot_class_project
 ./robot_class_project
 ```
 
+For a mini project:
+
+```bash
+g++ mini_projects/autonomous_robot_grid.cpp -o autonomous_robot_grid
+./autonomous_robot_grid
+```
+
 When using VS Code Code Runner, programs may run from inside the folder of the current `.cpp` file. For file I/O examples, generated files may appear inside the `file_io/` folder.
 
 ## Tools Used
@@ -112,6 +110,10 @@ When using VS Code Code Runner, programs may run from inside the folder of the c
 
 ## Purpose
 
-This repository is part of my independent software development portfolio. It shows steady practice with C++ fundamentals, algorithms, data structures, object-oriented programming, file I/O, and systems-oriented problem solving.
+This repository is part of my independent software development portfolio. It shows steady practice with C++ fundamentals, algorithms, data structures, object-oriented programming, file I/O, memory management, and systems-oriented problem solving.
 
 The long-term goal is to build toward more advanced robotics, autonomy, GNSS, and engineering software projects.
+
+## Next Project
+
+The next planned repository is `robotics-simulation-lab`, which will build on this foundation with more applied robotics and simulation work.
