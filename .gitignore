@@ -70,3 +70,7 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Generated file I/O outputs
+file_io/*.txt
+file_io/*.csv
