@@ -1,58 +1,85 @@
 # C++ Algorithms and Systems Practice
 
-This repository contains my C++ practice work for algorithms, data structures, object-oriented programming, file I/O, memory/pointers, and systems fundamentals.
+A C++ practice repository focused on algorithms, data structures, object-oriented programming, file I/O, memory management, and systems fundamentals.
 
-The goal of this repository is to build a strong foundation in modern C++, clean problem solving, and software fundamentals for technical engineering, navigation, robotics, and systems-focused roles.
+The goal of this project is to build a strong foundation in C++ for future work in robotics, autonomy, navigation, GNSS, and engineering software.
 
-## Current Repository Structure
+## Current Status
 
-* `arrays/` — array basics, min/max search, averages, reversing, linear search, and even/odd counting
-* `functions/` — function basics, pass by value, and pass by reference
-* `strings/` — string manipulation, manual string length, reversing, vowel counting, word counting, palindrome checks, character frequency, and space removal
-* `vectors/` — vector basics, sum/average, and maximum value search
-* `sorting/` — bubble sort, selection sort, insertion sort, merge sort, quick sort, descending sort, and vector sorting
-* `searching/` — linear search, binary search, recursive binary search, first occurrence, and last occurrence
-* `recursion/` — factorial, Fibonacci, power, sum of digits, countdown, and recursive string reversal
-* `data_structures/` — stacks, queues, linked lists, maps, sets, hash maps, and tree traversal basics
-* `oop/` — classes, constructors, destructors, getters/setters, access modifiers, const usage, and a basic robot class project
+This repository currently contains **61 C++ source files** across the following completed modules:
 
-## Topics Covered
+| Folder             | Description                                                                                                        |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------ |
+| `arrays/`          | Array basics, min/max search, averages, reversing, linear search, and even/odd counting                            |
+| `functions/`       | Function basics, pass by value, and pass by reference                                                              |
+| `strings/`         | String length, reversing, vowel counting, word counting, palindrome checks, character frequency, and space removal |
+| `vectors/`         | Vector basics, sum/average, and maximum value search                                                               |
+| `sorting/`         | Bubble sort, selection sort, insertion sort, merge sort, quick sort, descending sort, and vector sorting           |
+| `searching/`       | Linear search, binary search, recursive binary search, first occurrence, and last occurrence                       |
+| `recursion/`       | Factorial, Fibonacci, power, sum of digits, countdown, and recursive string reversal                               |
+| `data_structures/` | Stacks, queues, linked lists, maps, sets, hash maps, and tree traversal basics                                     |
+| `oop/`             | Classes, constructors, destructors, encapsulation, inheritance, polymorphism, and a robot class project            |
+| `file_io/`         | Writing files, reading files, appending files, reading numeric data, and working with simple student records       |
 
-* Arrays and vectors
-* Strings
-* Functions
-* Searching algorithms
-* Sorting algorithms
+## Topics Practiced
+
+* Arrays, strings, and vectors
+* Functions and references
+* Searching and sorting algorithms
 * Recursion
 * Stacks and queues
 * Linked lists
-* Maps and sets
-* Hash maps
-* Tree traversal
+* Maps, sets, and hash maps
+* Basic tree traversal
 * Object-oriented programming
-* Classes and objects
 * Constructors and destructors
-* Encapsulation
-* Access modifiers
-* Const correctness
+* Encapsulation, inheritance, and polymorphism
+* File input/output
 * Basic systems programming concepts
 
 ## Current Focus
 
-The repository is currently focused on strengthening core C++ fundamentals through small, readable, standalone examples. Each folder is organized by topic so concepts can be practiced individually before being combined into larger projects.
+The next module is `memory_pointers/`, which will focus on:
 
-Recent work has expanded the repository from basic syntax and algorithms into data structures and object-oriented programming, including class design and a simple robot class project.
+* Pointer syntax
+* References vs pointers
+* `int*` and `Node*`
+* `&` and `*`
+* `nullptr`
+* Dynamic memory with `new` and `delete`
+* Stack vs heap memory
+* Destructor-based cleanup
+* How linked lists connect nodes through pointers
 
-## Planned Additions
+## Planned Next Modules
 
-* File input/output examples
-* Pointer and memory management examples
-* More object-oriented programming practice
-* Graph algorithms
-* Mini projects combining multiple concepts
-* Build organization using Makefile or CMake
-* Basic testing examples
-* More systems-oriented C++ exercises
+```text
+memory_pointers/
+mini_projects/
+```
+
+Planned mini projects include:
+
+* Gradebook manager
+* Bank account manager
+* Robot battery simulator
+* Simple inventory system
+* Autonomous robot grid
+
+The autonomous robot grid project is intended to connect this C++ foundations repository to a future robotics simulation project.
+
+## File I/O Notes
+
+The `file_io/` examples generate local `.txt` and `.csv` files while running.
+
+Generated file outputs are ignored by Git:
+
+```gitignore
+file_io/*.txt
+file_io/*.csv
+```
+
+This keeps the repository focused on source code instead of generated output files.
 
 ## How to Run
 
@@ -65,17 +92,26 @@ g++ arrays/array_basics.cpp -o array_basics
 ./array_basics
 ```
 
-For files in other folders, replace the file path and output name as needed.
+For another folder:
 
-## Tech Stack
+```bash
+g++ oop/robot_class_project.cpp -o robot_class_project
+./robot_class_project
+```
+
+When using VS Code Code Runner, programs may run from inside the folder of the current `.cpp` file. For file I/O examples, generated files may appear inside the `file_io/` folder.
+
+## Tools Used
 
 * C++
+* VS Code
+* g++
 * Git
 * GitHub
-* Command line tools
+* GitHub Desktop
 
 ## Purpose
 
-This repository is part of my independent software development portfolio. It is meant to show consistent progress, clean code, and strong fundamentals in C++ programming, algorithms, data structures, and systems-oriented problem solving.
+This repository is part of my independent software development portfolio. It shows steady practice with C++ fundamentals, algorithms, data structures, object-oriented programming, file I/O, and systems-oriented problem solving.
 
-The long-term purpose is to build technical depth that supports future work in GNSS, geospatial data systems, navigation, robotics, autonomy, and engineering software workflows.
+The long-term goal is to build toward more advanced robotics, autonomy, GNSS, and engineering software projects.
